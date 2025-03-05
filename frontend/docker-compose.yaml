@@ -1,0 +1,15 @@
+networks:
+  frontend_net:
+    driver: bridge
+
+services:
+  frontend_a:
+    build: .
+    container_name: frontend
+    volumes:
+      - .:/usr/share/app
+    ports:
+      - 3040:3000
+    restart: always
+    networks:
+      - frontend_net
