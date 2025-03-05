@@ -3,7 +3,7 @@ import { Bell, ChevronDownIcon, MessageCircle, Search } from 'lucide-react';
 
 export default function Header () {
     return (
-        <header className="h-16 fixed w-full shadow flex items-center justify-between px-12 z-10">
+        <header className="h-16 fixed w-full shadow bg-white flex items-center justify-between px-12 z-30">
             <Image src="/static/imgs/faladev.jpg" 
                 alt="FalaDev Logo" 
                 height="50" width="200" 
@@ -24,7 +24,7 @@ export default function Header () {
                 </a>
             </div>
             <div className="flex gap-5 items-center">
-                <div className="flex gap-2 gap-6 border rounded-full pl-1 py-1 pr-4 h-10 items-center mr-24">
+                <div className="flex gap-2  border rounded-full pl-1 py-1 pr-4 h-10 items-center mr-24">
                     <div className="h-full aspect-square rounded-full bg-zinc-100 flex items-center justify-center">
                         <Search 
                             strokeWidth={1} 

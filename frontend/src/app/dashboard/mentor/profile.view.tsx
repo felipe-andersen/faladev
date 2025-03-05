@@ -1,12 +1,10 @@
 import { Check } from "lucide-react";
 
 
-
-
 export function Profile() {
     return(
-        <div className="profile rounded-lg border bg-white w-full h-full flex flex-col px-20 py-20">
-            <div className=" rounded-lg border p-8 w-full h-full flex flex-col bg-neutral-100">
+        <div className="profile rounded-lg border bg-white w-full h-full flex flex-col ">
+            <div className=" rounded-lg  p-8 w-full h-full flex flex-col ">
                 <div className="flex gap-3 ">
                     <div className=" w-32 aspect-square overflow-hidden rounded-lg">
                         <img src="https://picsum.photos/200/300" alt="profile picture"/>

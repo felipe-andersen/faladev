@@ -22,12 +22,12 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body className={cn(inter.className, 'flex flex-col items-center justify-center min-h-screen')}>
-				<ReactQueryProvider>
-					<header className="flex justify-center items-center space-x-4 w-full text-center pb-6">
+				{/* <ReactQueryProvider> */}
+					{/* <header className="flex justify-center items-center space-x-4 w-full text-center pb-6">
 						<Image src="/static/imgs/faladev.jpg" alt="FalaDev Logo" height="50" width="200" />
-					</header>
+					</header> */}
 					{children}
-					<footer className="flex flex-wrap justify-center items-center space-x-4 w-full text-center py-4">
+					{/* <footer className="flex flex-wrap justify-center items-center space-x-4 w-full text-center py-4">
 						<a
 							href="https://www.instagram.com/faladev.tech/"
 							target="_blank"
@@ -55,8 +55,8 @@ export default function RootLayout({
 							<Image src="/static/imgs/whatsapp.svg" alt="WhatsApp FalaDev" width={30} height={30} />
 							<span className="text-base text-gray-700 hover:text-green-600">@FalaDev</span>
 						</a>
-					</footer>
-				</ReactQueryProvider>
+					</footer> */}
+				{/* </ReactQueryProvider> */}
 			</body>
 		</html>
 	)
