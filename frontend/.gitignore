@@ -38,6 +38,6 @@ next-env.d.ts
 *storybook.log
 
 /src/components/side-bar.view.tsx
-/src/app/dashboard/mentor
+/home/felipe/Documents/workspace/faladev/frontend/src/app/dashboard/mentor
 /public/SVGs
-/src/components/forms
+frontend/src/components/forms
